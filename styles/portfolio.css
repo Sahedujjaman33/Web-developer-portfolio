@@ -1,0 +1,77 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-variation-settings: */
+    /* "wdth" 100; */
+}
+/* Nav styles */
+.text-primary{
+    color: #FD6E0A ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 0px 200px ;
+}
+.header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.nav-title{
+    font-weight: 1000;
+}
+nav ul li{
+    list-style: none ;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color: #474747 ;
+} 
+nav ul {
+    display: flex ;
+    align-items: center ;
+    
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px ;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px ;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: semibold;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+
+}
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
+}
